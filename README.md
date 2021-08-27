@@ -28,3 +28,9 @@ App/Config/Database.php
 Configure NGINX or Apache site
 
 Get API code from https://openweathermap.org/api
+
+
+Current TODO 
+Please contact me if you would like to contribute or assist
+* Create database structures for Postgres, SQLite3
+* Dockerize the app
