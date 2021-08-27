@@ -14,7 +14,8 @@ Installation:
 -----------------------------------
 Database initialization:
 1. Create database user and a database with privileges (e.g user dashboard, database name: dashboard)
-2. Run SQL script (dashboard.sql) to create database structure
+2. When creating a database, use utf8_general_ci for collation 	
+3. Run SQL script (dashboard.sql) to create database structure
 
 Edit
 App/Config/App.php
@@ -24,7 +25,7 @@ App/Config/Database.php
 	* Modify all database details.
 		- DBdriver can be SQLite3, MySQLi, or other CodeIgniter4 supported database driver
 
-Configure NGINX or Apache site
+Configure NGINX or Apache site (point to /public/)
 
 Get API code from https://openweathermap.org/api
 
