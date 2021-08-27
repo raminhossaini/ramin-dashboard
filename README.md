@@ -10,6 +10,10 @@ ramin_dashboard features:
 * Metric / Imperial setting
 * Themes 
 
+<img width="1363" alt="Collapsed" src="https://user-images.githubusercontent.com/249256/131122882-988d768d-980c-4817-b87f-dbd28cb10f12.png">
+<img width="1355" alt="Expanded" src="https://user-images.githubusercontent.com/249256/131122895-9e6ed446-186e-4feb-b3a3-bb027ec99310.png">
+
+
 Installation:
 -----------------------------------
 Database initialization:
