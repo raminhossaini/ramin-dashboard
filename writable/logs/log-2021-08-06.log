@@ -1,0 +1,31 @@
+CRITICAL - 2021-08-06 05:52:17 --> Illegal string offset 'sites_id'
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Views/home.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include('/var/www/dev.ra...')
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(70): view()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-06 06:01:06 --> Use of undefined constant length - assumed 'length' (this will throw an Error in a future version of PHP)
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-06 06:01:21 --> Call to undefined function App\Controllers\length()
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-06 09:08:05 --> Argument 2 passed to CodeIgniter\HTTP\Response::redirect() must be of the type string, array given, called in /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Settings.php on line 76
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Settings.php(76): CodeIgniter\HTTP\Response->redirect()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Settings->update_feed()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

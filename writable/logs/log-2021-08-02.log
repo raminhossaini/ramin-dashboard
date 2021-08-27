@@ -1,0 +1,209 @@
+CRITICAL - 2021-08-02 03:17:26 --> syntax error, unexpected '=', expecting ')'
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-02 03:18:35 --> Class 'CI_Controller' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/Router/Router.php(566): include_once()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-02 03:26:53 --> Object of class stdClass could not be converted to string
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Weather->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 06:21:00 --> Call to a member function library() on null
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 06:27:04 --> syntax error, unexpected '$weather' (T_VARIABLE)
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 06:28:47 --> Illegal string offset 'description'
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Views/home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include('/var/www/dev.ra...')
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-02 06:29:29 --> Illegal string offset 'description'
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Views/home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include('/var/www/dev.ra...')
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-02 06:30:34 --> Cannot use object of type stdClass as array
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 06:30:53 --> Cannot use object of type stdClass as array
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 06:31:18 --> Cannot use object of type stdClass as array
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 06:32:05 --> Illegal string offset 'description'
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Views/home.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include('/var/www/dev.ra...')
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-02 06:32:53 --> Cannot use object of type stdClass as array
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#3 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-02 06:45:55 --> syntax error, unexpected '/'
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(44): view()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-02 06:53:53 --> Use of undefined constant Clear - assumed 'Clear' (this will throw an Error in a future version of PHP)
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Weather.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Weather->index()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-02 09:07:18 --> Call to a member function library() on null
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:15:17 --> Class 'App\Controllers\RSSParser' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:15:52 --> Class 'App\Controllers\RSSParser' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:16:25 --> Class 'App\Libraries\RSSParser' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:17:20 --> Class 'App\Libraries\RSSParser' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:19:02 --> Class 'App\Libraries\RSSParser' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:24:52 --> Call to a member function set_feed_url() on null
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-02 09:25:12 --> Class 'App\Libraries\SimpleXmlElement' not found
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Libraries/RSSParser.php(177): App\Libraries\RSSParser->parse()
+#1 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(52): App\Libraries\RSSParser->getFeed()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-08-02 09:26:08 --> Unable to write cache file: ./application/cache/rss_Parse_feafeaa3eceb3af2de6fdeca99150b3a
+CRITICAL - 2021-08-02 09:27:29 --> Call to undefined function App\Controllers\set_feed_url()
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-02 09:29:40 --> Unable to write cache file: ./application/cache/rss_Parse_feafeaa3eceb3af2de6fdeca99150b3a
+ERROR - 2021-08-02 09:29:53 --> Unable to write cache file: ./application/cache/rss_Parse_feafeaa3eceb3af2de6fdeca99150b3a
+CRITICAL - 2021-08-02 09:41:43 --> Invalid argument supplied for foreach()
+#0 /var/www/dev.ramin.online/workspace/dashboard/app/Views/home.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(230): include('/var/www/dev.ra...')
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /var/www/dev.ramin.online/workspace/dashboard/app/Controllers/Home.php(46): view()
+#5 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#6 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-02 14:48:20 --> syntax error, unexpected '.'
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-02 15:38:16 --> syntax error, unexpected 'text' (T_STRING)
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
