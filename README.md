@@ -14,9 +14,13 @@ ramin_dashboard features:
 <img width="1355" alt="Expanded" src="https://user-images.githubusercontent.com/249256/131122895-9e6ed446-186e-4feb-b3a3-bb027ec99310.png">
 
 
-Installation:
------------------------------------
-Database initialization:
+# Installation:
+### Requirements:
+* Apache or NGINX (Have not tested others yet)
+* PHP 7.3+ (tested on PHP 7.4)
+* Database (MySQL, PostgreSQL, SQLite3)
+
+### Database initialization:
 1. Create database user and a database with privileges (e.g user dashboard, database name: dashboard)
 2. When creating a database, use utf8_general_ci for collation 	
 3. Run SQL script (dashboard.sql) to create database structure
@@ -34,8 +38,7 @@ Configure NGINX or Apache site (point to /public/)
 Get API code from https://openweathermap.org/api
 
 
-Current TODO 
----------------------------
+# Current TODO 
 Please contact me if you would like to contribute or assist
 * Create database structures for Postgres, SQLite3
 * Dockerize the app
