@@ -1,5 +1,18 @@
 # ramin_dashboard
+ramin_dashboard features:
+* Dashboard built on top of CodeIgniter 4 and database backend (MySQL, or other)
+* Date and time based on timezone
+* Weather widget (updated periodically)
+* Simple Server Metrics including CPU usage, RAM usage, Disk utilization, IP address (updated periodically)
+* RSS feed (e.g for a news feed, updated periodically)
+* A simple dashboard where you can add Sites, and Links for those Sites
+* Icons for Links from https://icons.getbootstrap.com/
+* Metric / Imperial setting
+* Themes 
 
+-----------------------------------
+Installation:
+-----------------------------------
 Database initialization:
 1. Create database user and a database with privileges (e.g user dashboard, database name: dashboard)
 2. Run SQL script (dashboard.sql) to create database structure
