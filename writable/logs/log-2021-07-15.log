@@ -1,0 +1,36 @@
+CRITICAL - 2021-07-15 10:35:15 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
+CRITICAL - 2021-07-15 10:36:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
+CRITICAL - 2021-07-15 10:41:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
+CRITICAL - 2021-07-15 10:41:43 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
+CRITICAL - 2021-07-15 10:42:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
+CRITICAL - 2021-07-15 10:43:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /var/www/dev.ramin.online/workspace/dashboard/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /var/www/dev.ramin.online/workspace/dashboard/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /var/www/dev.ramin.online/workspace/dashboard/public/index.php(28): require('/var/www/dev.ra...')
+#4 {main}
