@@ -1,5 +1,5 @@
-# ramin_dashboard
-ramin_dashboard features:
+# ramin-dashboard
+ramin-dashboard features:
 * Dashboard built on top of CodeIgniter 4 and database backend (MySQL, or other)
 * Date and time based on timezone
 * Weather widget (updated periodically)
