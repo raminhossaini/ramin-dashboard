@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 172.50.0.6
--- Generation Time: Aug 27, 2021 at 10:26 AM
+-- Generation Time: Aug 27, 2021 at 01:39 PM
 -- Server version: 8.0.26
 -- PHP Version: 7.4.3
 
@@ -32,7 +32,7 @@ CREATE TABLE `owm_city_list` (
   `owm_city_id` int NOT NULL,
   `owm_city_name` varchar(255) NOT NULL,
   `owm_country` char(2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `owm_city_list`
@@ -74173,8 +74173,8 @@ CREATE TABLE `settings` (
   `settings_id` int NOT NULL,
   `setting_description` text NOT NULL,
   `value` int DEFAULT NULL,
-  `value_text` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `value_text` text CHARACTER SET utf8 COLLATE utf8_general_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `settings`
@@ -74198,14 +74198,14 @@ CREATE TABLE `sites` (
   `site_id` int NOT NULL,
   `site_description` text NOT NULL,
   `sort_order` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `sites`
 --
 
 INSERT INTO `sites` (`site_id`, `site_description`, `sort_order`) VALUES
-(1, 'Test Site (localhost)', 15);
+(1, 'domain.com (Test)', 15);
 
 -- --------------------------------------------------------
 
@@ -74220,14 +74220,14 @@ CREATE TABLE `site_links` (
   `link_icon` text NOT NULL,
   `sites_id` int NOT NULL,
   `sort_order` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `site_links`
 --
 
 INSERT INTO `site_links` (`link_id`, `link_description`, `link_url`, `link_icon`, `sites_id`, `sort_order`) VALUES
-(1, 'Test Link', 'http://localhost/test', 'rss', 1, 5);
+(1, 'Test Link', 'http://localhost/', 'rss', 1, 5);
 
 -- --------------------------------------------------------
 
@@ -74239,7 +74239,7 @@ CREATE TABLE `theme` (
   `theme_id` int NOT NULL,
   `theme_name` text NOT NULL,
   `icon_color` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `theme`
