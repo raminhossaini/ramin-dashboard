@@ -69,6 +69,7 @@ showSideBar('sites');
 </table>
 </form>
 </div>
+<a href="https://icons.getbootstrap.com/">Bootstrap Icons</a>
 </div>
 
 <script>
